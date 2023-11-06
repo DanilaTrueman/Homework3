@@ -21,7 +21,8 @@ public class PrimeNumbers {
                 }
             }
         }
-        if (number == 0 || number == 1) {
+
+        if (number == 1) {
             System.out.println(number + " не является ни простым, ни составным числом");
         } else if (isPrime) {
             System.out.println(number + " является простым числом");
